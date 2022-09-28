@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>User Automation</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_FM_USER_AUTOMATIONTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_FM_USER_AUTOMATION</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_FM_USER_AUTOMATION</FUNCNAME>
+     <SHORT_TEXT>User Automation</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PROCESS</PARAMETER>
+       <TYP>INT2</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_USER</PARAMETER>
+       <TYP>XUBNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_INITIAL_PASSWORD</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XUNCODE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DAYS_ALLOWED</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>INT4</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_PROCESS_RESULT</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_TECHNICAL_MESSAGE</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PROCESS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_USER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_INITIAL_PASSWORD</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DAYS_ALLOWED</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_PROCESS_RESULT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_TECHNICAL_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
