@@ -34,15 +34,6 @@
      <DESCRIPTION>Automation User Management</DESCRIPTION>
     </_-IWFND_-I_MED_OHT>
    </_-IWFND_-I_MED_OHT>
-   <_-IWFND_-I_MGDPIM>
-    <_-IWFND_-I_MGDPIM>
-     <MODEL_ID>ZAUTOUSER_MDL_0001_BE</MODEL_ID>
-     <DP_IMPL_TYPE>01</DP_IMPL_TYPE>
-     <FOR_SOFT_VERSION>DEFAULT</FOR_SOFT_VERSION>
-     <CLASS_NAME>/IWFND/CL_MGW_RUNT_RCLNT_PRXY</CLASS_NAME>
-     <DESCRIPTION>Automation User Management</DESCRIPTION>
-    </_-IWFND_-I_MGDPIM>
-   </_-IWFND_-I_MGDPIM>
   </asx:values>
  </asx:abap>
 </abapGit>
